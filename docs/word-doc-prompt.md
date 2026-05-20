@@ -14,6 +14,7 @@ Contexte du projet :
 
 Objectif du document :
 Créer une documentation complète, claire et bien structurée pour un étudiant ou un enseignant qui doit comprendre, tester et expliquer le TP.
+Le document doit aussi contenir une section dédiée à Postman et un emplacement clair pour ajouter le lien du dépôt du projet.
 
 Le document Word doit contenir les sections suivantes :
 1. Titre du TP
@@ -24,11 +25,12 @@ Le document Word doit contenir les sections suivantes :
 6. Explication de la couche Service
 7. Explication de la couche Controller
 8. Liste complète des routes REST avec méthode HTTP, URL, paramètres, type de requête et résultat attendu
-9. Guide de test sur Postman avec exemples de requêtes et exemples de réponses JSON
-10. Explication du comportement actuel quand un utilisateur n’existe pas
-11. Proposition d’amélioration avec HTTP 404
-12. Réponses aux questions théoriques sur la maintenance et la séparation des responsabilités
-13. Conclusion
+9. Guide de test sur Postman avec exemples de requêtes, exemples de réponses JSON et organisation de la collection
+10. Emplacement pour le lien du dépôt GitHub ou du repository du projet
+11. Explication du comportement actuel quand un utilisateur n’existe pas
+12. Proposition d’amélioration avec HTTP 404
+13. Réponses aux questions théoriques sur la maintenance et la séparation des responsabilités
+14. Conclusion
 
 Contraintes de rédaction :
 - Rédige en français.
@@ -39,6 +41,7 @@ Contraintes de rédaction :
 - Ajoute des exemples JSON concrets.
 - Fais une mise en page soignée et professionnelle.
 - Le résultat final doit être un fichier Word .docx prêt à être remis.
+- Prévois un champ clairement identifiable pour coller le lien du dépôt du projet, par exemple : `Lien du dépôt : <à compléter>`.
 
 Contenu technique à intégrer :
 - Classe User avec les attributs id, nom, mail
@@ -49,6 +52,8 @@ Contenu technique à intégrer :
   - POST /users/add
   - PUT /users/update/{p}
   - DELETE /users/supp?p=...
+- Guide Postman complet avec toutes les routes, les corps JSON, les paramètres et les résultats attendus
+- Mention explicite d'un lien de dépôt à insérer dans le document final
 - Réponse théorique sur le cas d’un id inexistant
 - Réponse théorique sur l’intérêt de l’architecture en couches
 
